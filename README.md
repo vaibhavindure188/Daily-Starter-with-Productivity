@@ -18,12 +18,19 @@ Welcome to Oral Starter! This platform is designed to be your go-to starting poi
 To get Oral Starter up and running on your local machine, you need to configure the following environment variables. Create a `.env` file in the root directory of the project and add the following:
 
 MONGO_URI=mongodb://127.0.0.1:27017/oral-starter
+
 GOOGLE_CLIENT_ID=YOUR_GOOGLE_CLIENT_ID
+
 GOOGLE_REDIRECT_URI=http://localhost:5000/auth/google/callback
+
 GOOGLE_REFRESH_TOKEN=YOUR_GOOGLE_REFRESH_TOKEN
+
 JWT_SECRET=YOUR_JWT_SECRET_KEY
+
 NEWS_API_KEY=YOUR_NEWS_API_KEY
+
 FRONTEND_URL=http://localhost:5173
+
 API_KEY_OF_STOCK=YOUR_STOCK_API_KEY
 
 
